@@ -3,7 +3,10 @@ import cart from './assets/cart.svg';
 
 const CartWidget = () => {
     return (
-        <img className='cart'src={cart} href="#" alt="cart"/>
+        <div className='cart'>
+        <img src={cart} href="#" alt="cart"/>
+        <input value={1}></input>
+        </div>
     )
     
 }
